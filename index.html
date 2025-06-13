@@ -13,7 +13,7 @@
   <title>Preserving The Past</title>
 </head>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="dark" class="d-flex flex-column min-vh-100">
 
     <!--SECTION: NAV-->
   <header class="sticky-top">
@@ -64,7 +64,7 @@
   <!-- !SECTION -->
 
 
-  <main>
+  <main class="flex-fill">
     <!-- SECTION HERO LANDING -->
     <div class="container-fluid landing-bg" style="height: 600px;">
       <div class="row justify-content-center">
@@ -248,25 +248,22 @@
   <section class="container-fluid mt-5 pt-3" style="height: 600px;">
     <div class="row justify-content-center">
       <h3 class="text-center">Explore Artifacts by Region</h3>
-        <img src="./assets/img/map.png" alt="" class="img-fluid" style="width: 100%;">
+        <img src="./assets/img/map.png" alt="" class="img-fluid" style="width: 80%;">
+    </div>
+    <div class="row" style="position:static; margin-top: 240px">
+      <div id="contact" class="col-12 bg-black text-light text-center mt-1 pt-1">
+        <p class="m-0 py-3 border-top border-secondary">
+          &copy; 2025 ROSSMAN. All Rights Reserved
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-instagram"></i>
+          <i class="mdi mdi-github"></i>
+        </p>
+      </div>
     </div>
   </section>
   <!-- !SECTION -->
   </main>
-  <!--SECTION: footer-->
-  <footer class="container-fluid bg-black">
-    <div class="row">
-      <div id="contact" class="col-12 bg-black text-light text-center mt-1 pt-1">
-      <p class="m-0 py-3 border-top border-secondary">
-        &copy; 2025 ROSSMAN. All Rights Reserved
-        <i class="mdi mdi-facebook"></i>
-        <i class="mdi mdi-instagram"></i>
-        <i class="mdi mdi-github"></i>
-      </p>
-    </div>
-    </div>
-  </footer>
-  <!-- !SECTION -->
+  
 
   <!-- SECTION links for bootstrap, axios, and auth -->
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
